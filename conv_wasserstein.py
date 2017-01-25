@@ -71,7 +71,11 @@ class conv_wass:
         return mu / np.sum(mu);
 
 
+<<<<<<< HEAD
 CW = conv_wass(5,8.0,100);
+=======
+CW = conv_wass(5,4.0,100);
+>>>>>>> 57d2041f784b6b5e410be6fabac4d9a7e85d8457
 plt.plot(CW.H);
         
 A = 1.0-np.mean(img.imread('cat.png'),axis=2);
